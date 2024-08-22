@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap - Prebuilt Layout</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+
+	
+
+<div class="container">
+ <div class="jumbotron">
+   <h1 class="text-center"><strong><em>PENTÁGONO</em></strong></h1>
+   <h2><em><strong>Descrpción:</strong></em> Es una figura geométrica formada por 5 lados, 5 ángulos y 5 vértices, que se clasifica dentro de los polígonos y puede ser del tipo regular o irregular.</h2>
+   <p><a href="index.html" class="btn btn-danger btn-block" role="visitar">Atrás</a></p>
+  <div class="row">
+    <div class="col-md-6"> </div>
+  </div>
+  <div class="row">
+  	<div class="col-md-5">
+  		<img src="https://th.bing.com/th/id/R.caa15e2d5e8134c908c939cf202fd707?rik=eSTpzMImQ774Zg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fdir%2fx68%2fdirx68a5T.jpg&ehk=al6xWN81nv8%2b%2bAi7OzJFQxRd8O75w8B1rFpPok%2fQ8XI%3d&risl=&pid=ImgRaw&r=0" width="277" height="280" class="img-thumbnail">
+  	</div>
+  	<div class="col-md-7">
+  		<h1>Calculos</h1>
+  		<label>lado</label>
+  		<input type="number" placeholder="ejemplo 10.5" id="lado">
+  		<br>
+  		<label>apotema</label>
+  		<input type="number" placeholder="ejemplo 10.5" id="apotema">
+  		<button class="btn btn-success btn-block" onClick="calcular()">calcular</button>
+  		<label id="area">area:</label>
+  		<br>
+  		<label id="perimetro">perimetro:</label>
+  	</div>
+  </div>
+</div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+<script src="pentagono.js"></script>
+</body>
+</html>

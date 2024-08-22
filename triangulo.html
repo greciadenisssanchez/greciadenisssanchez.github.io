@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap - Prebuilt Layout</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+
+	
+
+<div class="container">
+ <div class="jumbotron">
+   <h1 class="text-center"><strong><em>TRIÁNGULO</em></strong></h1>
+   <h2><em><strong>Descrpción:</strong></em> En una figura geometríca plana, se llama triángulo, trígono o trigonoide al polígono de tres lados. Los puntos comunes a cada par de lados se denominan vértices del triángulo.</h2>
+   <p><a href="index.html" class="btn btn-danger btn-block" role="visitar">Atrás</a></p>
+  <div class="row">
+    <div class="col-md-6"> </div>
+  </div>
+  <div class="row">
+  	<div class="col-md-5">
+  		<img src="https://th.bing.com/th/id/R.c0bc0222255c6224e74715da9e41d212?rik=%2fSDitM9u%2fE%2bXVA&riu=http%3a%2f%2fgnosticwarrior.com%2fwp-content%2fuploads%2f2013%2f04%2fred-triangle.png&ehk=ViJPlE0b23OMWsZXpC9KMVvGQPBly9uHXlOLpzSDO0g%3d&risl=&pid=ImgRaw&r=0" width="277" height="280" class="img-thumbnail">
+  	</div>
+  	<div class="col-md-7">
+  		<h1>Calculos</h1>
+  		<label>lado1</label>
+  		<input type="number" placeholder="ejemplo 10.5" id="lado1">
+  		<br>
+  		<label>lado2</label>
+  		<input type="number" placeholder="ejemplo 10.5" id="lado2">
+  		<br>
+  		<label>lado3</label>
+  		<input type="number" placeholder="ejemplo 10.5" id="lado3">
+  		<br>
+  		<button class="btn btn-success btn-block" onClick="calcular()">calcular</button>
+  		<label id="area">area:</label>
+  		<br>
+  		<label id="perimetro">perimetro:</label>
+  	</div>
+  </div>
+</div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+<script src="triangulo.js"></script>
+</body>
+</html>

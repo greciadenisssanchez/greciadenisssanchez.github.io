@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap - Prebuilt Layout</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+
+	
+
+<div class="container">
+ <div class="jumbotron">
+   <h1 class="text-center"><strong><em>TRAPECIO</em></strong></h1>
+   <h2><em><strong>Descrpción:</strong></em> Un trapecio es un cuadrilátero con un par de lados opuestos paralelos. Sus características son: Tiene dos bases, que son los lados paralelos. Tiene dos lados no paralelos, llamados catetos o lados laterales.</h2>
+   <p><a href="index.html" class="btn btn-danger btn-block" role="visitar">Atrás</a></p>
+  <div class="row">
+    <div class="col-md-6"> </div>
+  </div>
+  <div class="row">
+  	<div class="col-md-6">
+  		<img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/15539746/violet-trapezoid-clipart-md.png" width="700" height="700" class="img-thumbnail">
+  	</div>
+  	<div class="col-md-6">
+  		<h1>Calculos</h1>
+  		<label>base mayor<br>
+	    </label>
+  		<input type="number" placeholder="ejemplo 10.5" id="basemayor">
+  		<br>
+  		<label>base menor</label>
+  		<input type="number" placeholder="ejemplo 10.5" id="basemenor">
+  		<br>
+  		<label>lado lateral1</label>
+        <input type="number" placeholder="ejemplo 10.5" id="ladolateral1|">
+  		<br>
+  		<label>lado lateral2</label>
+  		<input type="number" placeholder="ejemplo 10.5" id="ladolateral2">
+  		<br>
+  		<label>altura</label>
+  		<input type="number" placeholder="ejemplo 10.5" id="altura">
+  		<button class="btn btn-success btn-block" onClick="calcular()">calcular</button>
+  		<label id="area">area:</label>
+  		<br>
+  		<label id="perimetro">perimetro:</label>
+  	</div>
+  </div>
+</div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+<script src="trapecio.js"></script>
+</body>
+</html>
